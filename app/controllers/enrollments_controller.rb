@@ -1,4 +1,7 @@
 class EnrollmentsController < ApplicationController
+  
+  # comment
+  
   def index
     matching_enrollments = Enrollment.all
 
